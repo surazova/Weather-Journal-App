@@ -8,8 +8,7 @@
 - CSS
 - JavaScript
 
-## Live Demo
-## 
+## Live Demo 
 
 ## References/Credit
 
