@@ -1,14 +1,15 @@
 # Project #3: Weather Journal App
 
-## Project Summary 
+## Project Summary
 
-## Languages Used 
+## Languages Used
 
 - HTML
 - CSS
 - JavaScript
 
-## Live Demo 
+## Live Demo
 
 ## References/Credit
 
+- https://openweathermap.org/appid
