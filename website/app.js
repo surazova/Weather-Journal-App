@@ -30,7 +30,7 @@ const getWeather = async (baseURL, zip, key) => {
     const data = await res.json();
     return data;
   } catch (error) {
-    console.error("Error");
+    console.error(error);
   }
 };
 
@@ -51,7 +51,7 @@ const postData = async (url = "", data = {}) => {
     console.log(newData);
     return newData;
   } catch (error) {
-    console.error("Error");
+    console.error(error);
   }
 };
 
@@ -61,13 +61,13 @@ const updateUI = async () => {
   try {
     const allData = await request.json();
     document.getElementById("date").innerHTML = `Date: ${newDate}`;
-    document.getElementById(
-      "temp"
-    ).innerHTML = `Temperature: ${allData[0].temp} &#8457`;
+    document.getElementById("temp").innerHTML = `Temperature: ${Math.round(
+      allData[0].temp
+    )} &#8457`;
     document.getElementById(
       "content"
     ).innerHTML = `Today, I feel ${allData[0].content}`;
   } catch (error) {
-    console.error("Error");
+    console.error(error);
   }
 };
