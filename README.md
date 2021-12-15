@@ -51,6 +51,5 @@ Set up a function that updated UI dynamically.
 
 ## Result
 
-[Image of Final Project](demo.png)
-
-<!-- <img src="./demo.png" width="800" heigh="950"> -->
+<!-- [Image of Final Project](./demo.png) -->
+<img src="./demo.png" width="900" heigh="950">
