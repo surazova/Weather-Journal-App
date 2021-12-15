@@ -17,23 +17,15 @@ body {
 }
 
 .holder {
-  /*******/
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-  /*******/
 }
-
-/******/
 
 .holder input,
 .holder textarea {
   padding: 0.5em;
 }
-
-/* .entry {
-  background: rgba(133, 32, 192, 0.4);
-} */
 
 #conditions {
   display: flex;
@@ -49,29 +41,22 @@ body {
   height: 2em;
 }
 
-/********/
-
 .entry {
-  background: rgba(59, 74, 107, 0.4);
+  background: #7a86a1;
 }
 
-/* #entryHolder {
+.holder.entry {
+  padding: 20px;
 }
-
-#date {
-}
-
-#temp {
-}
-
-#content {
-} */
 
 .headline {
   font-size: 4em;
+  padding-top: 15px;
 }
 .title {
-  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: #ffffff;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
@@ -108,7 +93,7 @@ h1 {
 
 textarea {
   background: #b97070;
-  color: #f0d43a;
+  color: #ffffff;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   margin-bottom: 10px;

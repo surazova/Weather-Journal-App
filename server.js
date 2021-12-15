@@ -32,8 +32,8 @@ const server = app.listen(port, listening);
 
 // Debugging
 function listening() {
-  console.log("the server is running");
-  console.log(`running on localhost: ${port}`);
+  console.log("The server is running");
+  console.log(`Running on localhost: ${port}`);
 }
 
 // Routes (using GET and POST)
