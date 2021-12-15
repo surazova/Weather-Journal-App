@@ -23,4 +23,4 @@ Create a web application that utilizes the OpenWeatherMap API to retrieve weathe
 ## Page View
 
 <!-- ![Image of Final Project](./demo.png =100x20) -->
-<img src="./demo.png" width="700" heigh="950" img-align="center">
+<img src="./demo.png" width="700" heigh="950" display="block" margin-left="auto" margin-right="auto" >
