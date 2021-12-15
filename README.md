@@ -14,17 +14,16 @@
 
 Create an asynchronous web application that utilizes the OpenWeatherMap API to retrieve weather based on a user's zipcode and dynamically update the User Interface accordingly.
 
-<!--
-If you want to continue coding you need to have nodejs and npm locally installed. You can check that by running node -v && npm -v in the terminal, which should result in two versions shown in the terminal.
+### Steps
 
-Once nodejs and npm installed you simple run npm start which runs a express server locally and serves the static files. In addition in enables two endpoints. One is a get for projectdata and the second for post projectdata. -->
-
-1. Make sure `node` is installed
-   Setting up project environment, making sure I have Node and packages installed, and included in my server.js file.
-   Added POST and GET routes to ensure correct retrieval of data from the server.
-   Acquired API credentials from OpenWeatherMap website.
-   Created async functions to fetch weather data and store it on my local server.
-   Set up a function that updated UI dynamically.
+1. Make sure `nodejs` and `npm` are installed locally
+   - To run the server, use command `http-server`
+   - Install `nodemon` and use command `nodemon ./server.js localhost 8080` to run server
+   - `Nodemon` will ensure that the server restarts every time you save your file(s)
+2. Get personal `API Credentials` from OpenWeatherMap API
+3. Add `POST` and `GET` routes to `app.js`
+4. Create asynchronous JS functions to get weather data, and then store the data in the local server
+5. Dynamically update the UI.
 
 <a name="LanguagesUsed"></a>
 
