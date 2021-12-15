@@ -4,7 +4,7 @@ const apiKey = "&appid=a3a583989f0bfe311cc1ad4c3ae43e4e&units=imperial";
 
 // Date formatting after it's retrieved from API
 let d = new Date();
-let newDate = d.getMonth() + "/" + d.getDate() + "/" + d.getFullYear();
+let newDate = d.getMonth() + 1 + "/" + d.getDate() + "/" + d.getFullYear();
 
 // Event listener to add function to existing HTML DOM element (Generate Button)
 document.getElementById("generate").addEventListener("click", performAction);
@@ -36,7 +36,7 @@ const getWeather = async (baseURL, zip, key) => {
 
 // Function to POST Data
 const postData = async (url = "", data = {}) => {
-  // console.log(data);
+  console.log(data);
   const response = await fetch(url, {
     method: "POST",
     credentials: "same-origin",
@@ -51,7 +51,7 @@ const postData = async (url = "", data = {}) => {
     console.log(newData);
     return newData;
   } catch (error) {
-    console.error(error);
+    console.error("error");
   }
 };
 
@@ -62,11 +62,11 @@ const updateUI = async () => {
     const allData = await request.json();
     document.getElementById("date").innerHTML = `Date: ${newDate}`;
     document.getElementById("temp").innerHTML = `Temperature: ${Math.round(
-      allData[0].temp
+      allData.temp
     )} &#8457`;
     document.getElementById(
       "content"
-    ).innerHTML = `Today, I feel ${allData[0].content}`;
+    ).innerHTML = `Today, I feel ${allData.content}`;
   } catch (error) {
     console.error(error);
   }
