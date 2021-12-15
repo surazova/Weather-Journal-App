@@ -2,7 +2,11 @@
 
 ## Table of Contents
 
-1. [ Project Summary ](#ProjectSummary)
+- [ Project Summary ](#ProjectSummary)
+- [ Languages Used](#LanguagesUsed)
+- [ Node Modules Used](#NodeModulesUsed)
+- [ References/Credit](#References/Credit)
+- [ Result](#Result)
 
 Table of Contents
 Overview
@@ -28,11 +32,15 @@ Acquired API credentials from OpenWeatherMap website.
 Created async functions to fetch weather data and store it on my local server.
 Set up a function that updated UI dynamically.
 
+<a name="LanguagesUsed"></a>
+
 ## Languages Used
 
 - HTML
 - CSS
 - JavaScript
+
+<a name="NodeModulesUsed"></a>
 
 ## Node Modules Used
 
@@ -40,9 +48,13 @@ Set up a function that updated UI dynamically.
 - BodyParser
 - Cors
 
+<a name="References/Credit"></a>
+
 ## References/Credit
 
 - https://openweathermap.org/appid
+
+<a name="Result"></a>
 
 ## Result
 
