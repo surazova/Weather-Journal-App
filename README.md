@@ -8,13 +8,6 @@
 - [ References/Credit](#References/Credit)
 - [ Result](#Result)
 
-Table of Contents
-Overview
-Instructions
-Extras
-Development
-Done
-
 <a name="ProjectSummary"></a>
 
 ## Project Summary
@@ -58,5 +51,6 @@ Set up a function that updated UI dynamically.
 
 ## Result
 
-<!-- ![Image of Final Project](./demo.png) -->
-<img src="./demo.png" width="800" heigh="950">
+[Image of Final Project](./demo.png)
+
+<!-- <img src="./demo.png" width="800" heigh="950"> -->
