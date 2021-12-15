@@ -1,12 +1,21 @@
-// Personal API Key for OpenWeatherMap API
+// Setup empty JS object to act as endpoint for all routes
+// Express to run server and routes
 
-// Event listener to add function to existing HTML DOM element
+// Start up an instance of app
 
-/* Function called by event listener */
+/* Dependencies */
+/* Middleware*/
 
-/* Function to GET Web API Data*/
+//Here we are configuring express to use body-parser as middle-ware.
+// Cors for cross origin allowance
 
-/* Function to POST data */
+// Initialize the main project folder
 
+// Spin up the server
+// Callback to debug
 
-/* Function to GET Project Data */
+// Initialize all route with a callback function
+
+// Callback function to complete GET '/all'
+
+// Post Route

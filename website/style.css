@@ -46,7 +46,7 @@ body {
 }
 
 .holder.entry {
-  padding: 20px;
+  padding: 15px 15px 20px;
 }
 
 .headline {
@@ -87,6 +87,12 @@ button {
   box-shadow: 2px 4px 5px #444;
   text-align: center;
 }
+
+button:hover {
+  background-color: #41779e;
+  cursor: pointer;
+}
+
 h1 {
   font-size: 36px;
 }
