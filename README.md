@@ -10,10 +10,16 @@ Create a web application that utilizes the OpenWeatherMap API to retrieve weathe
 - CSS
 - JavaScript
 
-## Demo
+## Node Modules Used
 
-![alt text](./demo.png)
+- Express
+- BodyParser
+- Cors
 
 ## References/Credit
 
 - https://openweathermap.org/appid
+
+## Page View
+
+![Image of Final Project](./demo.png =100x20)
